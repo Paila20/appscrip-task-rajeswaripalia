@@ -1,0 +1,128 @@
+.footer-container {
+    background-color: #000;
+    padding: 5px;
+    color: #fff; 
+    display: flex;
+    flex-direction: column;
+ 
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+  }
+  .footer-top-left,.footer-top-right{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+  }
+  .footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid white;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom-left, 
+  .footer-bottom-middle, 
+  .footer-bottom-right {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .footer-heading {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-description {
+    font-size: 16px;
+    color: #ccc;
+  }
+  
+  .footer-subscribe {
+    display: flex;
+   
+    gap: 2px;
+    text-align: left;
+  }
+  
+  .footer-input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #666;
+    border-radius: 4px;
+    width: 60%;
+    background-color:#fff;
+    color: #fff;
+  }
+  
+  .footer-subscribe-button {
+    padding: 10px;
+    font-size: 14px;
+   background-color: #000;
+    color:  #666;
+    border: 1px solid #666;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .footer-subscribe-button:hover {
+    background-color: #0056b3;
+  }
+  .usd{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  
+
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .payment-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  
+  }
+  .payment-icon{
+    width: 40px;
+    height: 30px;
+  }
+  
+ 
+  .footer-copyright {
+    margin-top: 20px;
+    border-top: 1px solid #333;
+    padding: 10px;
+    color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .footer-top {
+      flex-direction: column;
+    }
+  
+    .footer-bottom {
+      flex-direction: column;
+    }
+  
+    .social-icons, .payment-icons {
+      justify-content: center;
+    }
+  }
+  
